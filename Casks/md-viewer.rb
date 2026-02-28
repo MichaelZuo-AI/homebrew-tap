@@ -7,6 +7,11 @@ cask "md-viewer" do
   desc "Fast, lightweight desktop Markdown viewer built with Tauri"
   homepage "https://github.com/MichaelZuo-AI/Markdown-Viewer"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   depends_on arch: :arm64
 
   app "MD Viewer.app"

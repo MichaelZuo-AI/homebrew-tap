@@ -16,6 +16,11 @@ cask "md-viewer" do
 
   app "MD Viewer.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/MD Viewer.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/com.aidreamworks.mdviewer",
     "~/Library/Caches/com.aidreamworks.mdviewer",

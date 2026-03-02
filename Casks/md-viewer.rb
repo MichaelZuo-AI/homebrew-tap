@@ -1,6 +1,6 @@
 cask "md-viewer" do
-  version "0.3.0"
-  sha256 "f99802dba960a357c98132518ab7f10dc8f04c4a5ab84a210beeee19f8e7eb0b"
+  version "0.3.1"
+  sha256 "40b9ae45fdc0dfed0a1f75482628b3de15938756175a2d77930c37697b96fe76"
 
   url "https://github.com/MichaelZuo-AI/Markdown-Viewer/releases/download/v#{version}/MD.Viewer_#{version}_aarch64.dmg"
   name "MD Viewer"

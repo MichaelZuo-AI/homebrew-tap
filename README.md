@@ -6,5 +6,5 @@ Homebrew formulae for AIDreamWorks apps.
 
 ```bash
 brew tap MichaelZuo-AI/tap
-brew install --cask md-viewer
+brew install --cask Mikedown
 ```

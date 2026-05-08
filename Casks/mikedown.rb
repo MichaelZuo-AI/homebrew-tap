@@ -1,6 +1,6 @@
 cask "mikedown" do
-  version "0.18.2"
-  sha256 "5a7edcfee9925e5ef7ed038c4f4e2cff735f493104efdb7db41713a728bcec14"
+  version "0.18.3"
+  sha256 "6a853057649bcf27370016929fe07c2ce7131bdd1a4ace17825cf5bce39c6bf7"
 
   url "https://github.com/MichaelZuo-AI/Mikedown/releases/download/v#{version}/MikeDown_#{version}_aarch64.dmg"
   name "MikeDown"
